@@ -29,10 +29,10 @@ print('\n\nYYYY_MM_DD_HH:MM:SS CPU% RAM%')
 while time.time() < t_end:
     def main():
         # Make sure we've got psutil
-        try:
-            __import__(psutil)
-        except ImportError:
-            pip.main(['install', psutil])
+        #try:
+        #    __import__(psutil)
+        #except ImportError:
+        #    pip.main(['install', psutil])
 
         # date time stamp
         dt = datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S')

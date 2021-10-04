@@ -40,7 +40,6 @@ print('View settings:\n')
 print(data)
 utime = data['utime']
 delay_interval = data['delay_interval']
-t_end = data['t_end']
 max_pct = data['max_pct']
 #changes user input from string to float
 #user_float = float(user_time)
